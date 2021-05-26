@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #ffffff;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+/* --------- navigation ------------------- */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.txt-link{
+    text-decoration: none;
+    color: #0a656d;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.list-item{
+    display: flex;
+}
+
+.list-item li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.list-item li a{
+    text-decoration: none;
+    color: #51719b;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+/* ----------- première partie ----------------------- */
+
+.section-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-img img{
+    width: 70%;
+    object-fit: cover;
+
+}
+
+.section-txt{
+    padding: 20px;
+}
+
+.section-title{
+    color: #0c4a52;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.section-txt p, .subscribers p{
+    color: #5f7d82;
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.btn-txt{
+    background-color: #0a656d;
+    color: #ffffff;
+    padding: 10px 25px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+
+/* -------- deuxième section ----------- */
+
+.section-second-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribers-content{
+    display: flex;
+    align-items: center;
+}
+
+.subscribers span{
+    color: #0a656d;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.subscribers p{
+    margin-right: 20px;
+}
+
+
+/* --------- troisième section */
+
+.section-third-box{
+    display: flex;
+}
+
+.mb{
+    margin-bottom: 30px;
+}
+
+/* ---------- quatrième section --------------- */
+
+.illustration-box{
+    display: flex;
+    align-items: center;
+}
+
+.illustration{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.subscribers-box{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* sixième section */
+
+.videos video{
+    width: 80%;
+    object-fit: cover;
+}
+
+/* pied de page */
+
+.footer{
+    background-color: #0c4a52;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg-footer{
+    color: #ffffff;
+
+}
+
+.footer-txt p{
+    color: #ffffff;
+    margin-bottom: 30px;
+    line-height: 40px;
+}
+
+.bg-btn{
+    background-color: #ffffff;
+    color: #0c4a52;
+    padding: 15px 30px;
+}
+
+.btn-footer{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 15px 40px;
+
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar p{
+    color:#0c4a52;
+    font-size: 20px;
+    font-weight: bold;
+}
